@@ -25,3 +25,9 @@ def generate_pdf(output_file, url):
         print(f"Failed to generate PDF. Error: {result.stderr}")
 
     print(f"Time taken: {elapsed_time:.2f} seconds")
+
+
+# Example usage:
+# output_file = "output.pdf"
+# file_path = "./template/report.html"
+# generate_pdf(output_file, file_path)
