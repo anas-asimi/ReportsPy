@@ -1,0 +1,12 @@
+ftp:
+  host: 41.143.249.137
+  port: 2001
+  username: ANAS
+  password: 
+
+files paths:
+  HAD_BOUMOUSSA_MTO_DATA_1j: HAD_BOUMOUSSA_MTO_DATA_1j.dat
+  OULED_AYAD_MTO_DATA_1j: OULED_AYAD_MTO_DATA_1j.dat
+  OULED_GNAOU_MTO_DATA_1j: OULED_GNAOU_MTO_DATA_1j.dat
+  SOUK_SEBT_MTO_DATA_1j: SOUK_SEBT_MTO_DATA_1j.dat
+  # station_code: /file_path
