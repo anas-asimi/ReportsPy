@@ -2,9 +2,14 @@ import yaml
 
 
 # Read YAML file
-with open("config/settings.yaml", "r") as stream:
-    data_loaded = yaml.safe_load(stream)
+with open("settings.yaml", "r") as stream:
+    settings = yaml.safe_load(stream)
 
 
-host, port, username, password = data_loaded["ftp"].values()
-files_paths = data_loaded["files paths"]
+host, port, username, password, files_paths = settings["ftp"].values()
+json_path = settings["json path"]
+pdf_path = settings["pdf path"]
+html_path = settings["html path"]
+
+BENI_AMMIR_STATIONS = settings["BENI AMMIR STATIONS"]
+BENI_MOUSSA_STATIONS = settings["BENI MOUSSA STATIONS"]

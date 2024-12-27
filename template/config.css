@@ -45,6 +45,10 @@ img {
 	flex: 1;
 	width: 100%;
 }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 1em;
+	margin-bottom: 0.5em;
+}
 /* ================================ print config ================================ */
 @media print {
 	/** isnt necessary **/
