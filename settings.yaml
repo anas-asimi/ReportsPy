@@ -1,0 +1,19 @@
+ftp:
+  host: 41.143.249.137
+  port: 2001
+  username: ANAS
+  password: 
+
+  files paths:
+    HAD BOUMOUSSA: HAD_BOUMOUSSA_MTO_DATA_1j.dat
+    OULED AYAD: OULED_AYAD_MTO_DATA_1j.dat
+    OULED GNAOU: OULED_GNAOU_MTO_DATA_1j.dat
+    SOUK SEBT: SOUK_SEBT_MTO_DATA_1j.dat
+    # station_code: /file_path
+
+json path: ./template/assets/data.json
+pdf path: ./data/generated/Bulletin météo.pdf
+html path: ./template/report.html
+
+BENI AMMIR STATIONS: ["HAD BOUMOUSSA", "OULED AYAD"]
+BENI MOUSSA STATIONS: ["OULED GNAOU", "SOUK SEBT"]
