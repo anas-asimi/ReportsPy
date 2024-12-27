@@ -9,7 +9,10 @@ def generate_pdf(output_file, url):
     command = [
         "google-chrome-stable",
         "--headless",
+        "--disable-web-security",
+        "--user-data-dir=/tmp/chrome_dev",
         "--disable-gpu",
+        "--virtual-time-budget=1000",
         f"--print-to-pdf={output_file}",
         url,
     ]
